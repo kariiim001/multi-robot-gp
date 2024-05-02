@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/kareem/ros2_ws/build/nav': /usr/bin/cmake --build /home/kareem/ros2_ws/build/nav -- -j12 -l12
+[0.045s] Invoked command in '/home/kareem/ros2_ws/build/nav' returned '0': /usr/bin/cmake --build /home/kareem/ros2_ws/build/nav -- -j12 -l12
+[0.071s] Invoking command in '/home/kareem/ros2_ws/build/nav': /usr/bin/cmake --install /home/kareem/ros2_ws/build/nav
+[0.079s] -- Install configuration: ""
+[0.079s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/ament_index/resource_index/package_run_dependencies/nav
+[0.080s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/ament_index/resource_index/parent_prefix_path/nav
+[0.080s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/ament_prefix_path.sh
+[0.080s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/ament_prefix_path.dsv
+[0.080s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/path.sh
+[0.080s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/path.dsv
+[0.080s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.bash
+[0.080s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.sh
+[0.080s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.zsh
+[0.081s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.dsv
+[0.081s] -- Installing: /home/kareem/ros2_ws/install/nav/share/nav/package.dsv
+[0.081s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/ament_index/resource_index/packages/nav
+[0.081s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/cmake/navConfig.cmake
+[0.081s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/cmake/navConfig-version.cmake
+[0.081s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/package.xml
+[0.083s] Invoked command in '/home/kareem/ros2_ws/build/nav' returned '0': /usr/bin/cmake --install /home/kareem/ros2_ws/build/nav

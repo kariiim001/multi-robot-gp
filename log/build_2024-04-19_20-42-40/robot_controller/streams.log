@@ -1,0 +1,15 @@
+[0.013s] Invoking command in '/home/kareem/ros2_ws/build/robot_controller': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/robot_controller -- -j12 -l12
+[0.033s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.053s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.190s] CMake Error at CMakeLists.txt:21 (install):
+[0.190s]   install does not recognize sub-command DIRECTORIY
+[0.190s] 
+[0.190s] 
+[0.191s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.242s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.244s] -- Added test 'lint_cmake' to check CMake code style
+[0.245s] -- Added test 'xmllint' to check XML markup files
+[0.246s] -- Configuring incomplete, errors occurred!
+[0.246s] See also "/home/kareem/ros2_ws/build/robot_controller/CMakeFiles/CMakeOutput.log".
+[0.248s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.249s] Invoked command in '/home/kareem/ros2_ws/build/robot_controller' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/robot_controller -- -j12 -l12

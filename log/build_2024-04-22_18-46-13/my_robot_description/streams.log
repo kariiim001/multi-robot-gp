@@ -1,0 +1,23 @@
+[0.014s] Invoking command in '/home/kareem/ros2_ws/build/my_robot_description': /usr/bin/cmake --build /home/kareem/ros2_ws/build/my_robot_description -- -j12 -l12
+[0.039s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.170s] Traceback (most recent call last):
+[0.170s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.170s]     from ament_package.templates import get_environment_hook_template_path
+[0.170s] ModuleNotFoundError: No module named 'ament_package'
+[0.185s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.185s]   execute_process(/usr/bin/python3
+[0.185s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.185s]   /home/kareem/ros2_ws/build/my_robot_description/ament_cmake_package_templates/templates.cmake)
+[0.185s]   returned error code 1
+[0.185s] Call Stack (most recent call first):
+[0.185s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.185s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.185s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.185s]   CMakeLists.txt:24 (find_package)
+[0.186s] 
+[0.186s] 
+[0.186s] -- Configuring incomplete, errors occurred!
+[0.186s] See also "/home/kareem/ros2_ws/build/my_robot_description/CMakeFiles/CMakeOutput.log".
+[0.188s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.190s] Invoked command in '/home/kareem/ros2_ws/build/my_robot_description' returned '2': /usr/bin/cmake --build /home/kareem/ros2_ws/build/my_robot_description -- -j12 -l12

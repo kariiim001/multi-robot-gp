@@ -1,0 +1,46 @@
+[0.045s] Invoking command in '/home/kareem/ros2_ws/build/my_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kareem/ros2_ws/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/home/kareem/ros2_ws/install/my_robot_controller
+[1.402s] -- The C compiler identification is GNU 9.4.0
+[1.710s] -- The CXX compiler identification is GNU 9.4.0
+[1.733s] -- Check for working C compiler: /usr/bin/cc
+[1.805s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.806s] -- Detecting C compiler ABI info
+[1.886s] -- Detecting C compiler ABI info - done
+[1.900s] -- Detecting C compile features
+[1.909s] -- Detecting C compile features - done
+[1.914s] -- Check for working CXX compiler: /usr/bin/c++
+[1.981s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.983s] -- Detecting CXX compiler ABI info
+[2.047s] -- Detecting CXX compiler ABI info - done
+[2.062s] -- Detecting CXX compile features
+[2.063s] -- Detecting CXX compile features - done
+[2.076s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.132s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.132s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.540s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.808s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.844s] -- Added test 'lint_cmake' to check CMake code style
+[2.876s] -- Added test 'xmllint' to check XML markup files
+[2.880s] -- Configuring done
+[2.884s] -- Generating done
+[2.885s] -- Build files have been written to: /home/kareem/ros2_ws/build/my_robot_controller
+[2.889s] Invoked command in '/home/kareem/ros2_ws/build/my_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kareem/ros2_ws/src/my_robot_controller -DCMAKE_INSTALL_PREFIX=/home/kareem/ros2_ws/install/my_robot_controller
+[2.892s] Invoking command in '/home/kareem/ros2_ws/build/my_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/my_robot_controller -- -j12 -l12
+[2.929s] Invoked command in '/home/kareem/ros2_ws/build/my_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/my_robot_controller -- -j12 -l12
+[2.952s] Invoking command in '/home/kareem/ros2_ws/build/my_robot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kareem/ros2_ws/build/my_robot_controller
+[2.962s] -- Install configuration: ""
+[2.962s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/package_run_dependencies/my_robot_controller
+[2.962s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/parent_prefix_path/my_robot_controller
+[2.962s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.sh
+[2.963s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.dsv
+[2.963s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/environment/path.sh
+[2.963s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/environment/path.dsv
+[2.963s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/local_setup.bash
+[2.963s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/local_setup.sh
+[2.963s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/local_setup.zsh
+[2.963s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/local_setup.dsv
+[2.963s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.dsv
+[2.964s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller
+[2.964s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig.cmake
+[2.964s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig-version.cmake
+[2.964s] -- Installing: /home/kareem/ros2_ws/install/my_robot_controller/share/my_robot_controller/package.xml
+[2.966s] Invoked command in '/home/kareem/ros2_ws/build/my_robot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kareem/ros2_ws/build/my_robot_controller

@@ -1,0 +1,28 @@
+[0.056s] Invoking command in '/home/kareem/ros2_ws/build/nav': /usr/bin/cmake --build /home/kareem/ros2_ws/build/nav -- -j12 -l12
+[0.281s] Invoked command in '/home/kareem/ros2_ws/build/nav' returned '0': /usr/bin/cmake --build /home/kareem/ros2_ws/build/nav -- -j12 -l12
+[0.310s] Invoking command in '/home/kareem/ros2_ws/build/nav': /usr/bin/cmake --install /home/kareem/ros2_ws/build/nav
+[0.319s] -- Install configuration: ""
+[0.319s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/launch
+[0.319s] -- Installing: /home/kareem/ros2_ws/install/nav/share/nav/launch/localization.launch.py
+[0.319s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/launch/mapping.launch.py
+[0.319s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config
+[0.319s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/cartographer.lua
+[0.319s] -- Installing: /home/kareem/ros2_ws/install/nav/share/nav/config/amcl_config.yaml
+[0.319s] -- Installing: /home/kareem/ros2_ws/install/nav/share/nav/config/map1.pgm
+[0.319s] -- Installing: /home/kareem/ros2_ws/install/nav/share/nav/config/map1.yaml
+[0.319s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/ament_index/resource_index/package_run_dependencies/nav
+[0.319s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/ament_index/resource_index/parent_prefix_path/nav
+[0.319s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/ament_prefix_path.sh
+[0.320s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/ament_prefix_path.dsv
+[0.320s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/path.sh
+[0.320s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/path.dsv
+[0.320s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.bash
+[0.320s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.sh
+[0.320s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.zsh
+[0.320s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.dsv
+[0.320s] -- Installing: /home/kareem/ros2_ws/install/nav/share/nav/package.dsv
+[0.331s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/ament_index/resource_index/packages/nav
+[0.331s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/cmake/navConfig.cmake
+[0.331s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/cmake/navConfig-version.cmake
+[0.331s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/package.xml
+[0.333s] Invoked command in '/home/kareem/ros2_ws/build/nav' returned '0': /usr/bin/cmake --install /home/kareem/ros2_ws/build/nav

@@ -1,0 +1,6 @@
+Invoking command in '/home/kareem/ros2_ws/build/nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kareem/ros2_ws/src/nav -DCMAKE_INSTALL_PREFIX=/home/kareem/ros2_ws/install/nav
+Invoked command in '/home/kareem/ros2_ws/build/nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/kareem/ros2_ws/src/nav -DCMAKE_INSTALL_PREFIX=/home/kareem/ros2_ws/install/nav
+Invoking command in '/home/kareem/ros2_ws/build/nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/nav -- -j12 -l12
+Invoked command in '/home/kareem/ros2_ws/build/nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/nav -- -j12 -l12
+Invoking command in '/home/kareem/ros2_ws/build/nav': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kareem/ros2_ws/build/nav
+Invoked command in '/home/kareem/ros2_ws/build/nav' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/kareem/ros2_ws/build/nav

@@ -1,0 +1,2 @@
+Invoking command in '/home/kareem/ros2_ws/build/my_robot_description': /usr/bin/cmake --build /home/kareem/ros2_ws/build/my_robot_description -- -j12 -l12
+Invoked command in '/home/kareem/ros2_ws/build/my_robot_description' returned '2': /usr/bin/cmake --build /home/kareem/ros2_ws/build/my_robot_description -- -j12 -l12
