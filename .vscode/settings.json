@@ -6,5 +6,6 @@
     "python.analysis.extraPaths": [
         "/opt/ros/foxy/lib/python3.8/site-packages"
     ],
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "codegpt.apiKey": "sk-proj-8MVyXNsIvtWu5Wmz9thAT3BlbkFJe2zvuUzgbfRyLMHf7I7F"
 }

@@ -12,12 +12,15 @@ def generate_launch_description():
     
     nav2_yaml = os.path.join(get_package_share_directory(package_name), 'config', 'amcl_config.yaml')
     map_file = os.path.join(get_package_share_directory(package_name), 'config', 'map1.yaml')
-    rviz_config_file = os.path.join(get_package_share_directory(package_name), "rviz", "map-launch.rviz")
+    rviz_config_file = os.path.join(get_package_share_directory(package_name), "rviz", "auton-nav-final-1.rviz")
     controller_yaml = os.path.join(get_package_share_directory('nav'), 'config', 'controller.yaml')
     bt_navigator_yaml = os.path.join(get_package_share_directory('nav'), 'config', 'bt_navigator.yaml')
     planner_yaml = os.path.join(get_package_share_directory('nav'), 'config', 'planner_server.yaml')
     recovery_yaml = os.path.join(get_package_share_directory('nav'), 'config', 'recovery.yaml')
-    
+    ekf_yaml = os.path.join(get_package_share_directory('nav'), 'config', 'ekf.yaml')  # Path to EKF YAML file
+    use_sim_time = LaunchConfiguration("use_sim_time", default=True)                   # EKF
+
+
     use_rviz = LaunchConfiguration("rviz", default=True)
     
     return LaunchDescription([
@@ -77,6 +80,17 @@ def generate_launch_description():
                                         'controller_server',
                                         'recoveries_server',
                                         'bt_navigator']}]),
+        #----------------------------
+        Node(
+            package='robot_localization',  # Replace 'ekf_package_name' with the actual package name containing your EKF node
+            executable='ekf_node',  # Replace 'ekf_node_executable' with the actual executable name of your EKF node
+            name='ekf_filter_node',  # Name of the EKF node
+            output='screen',
+            parameters=[ekf_yaml, 
+            {'use_sim_time': use_sim_time}]),
+
+        #-----------------------------    
+
         Node(
         package= "rviz2",
         executable= "rviz2",

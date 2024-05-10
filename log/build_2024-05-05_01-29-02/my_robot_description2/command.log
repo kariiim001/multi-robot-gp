@@ -1,0 +1,6 @@
+Invoking command in '/home/kareem/ros2_ws/build/my_robot_description2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kareem/ros2_ws/src/my_robot_description2 -DCMAKE_INSTALL_PREFIX=/home/kareem/ros2_ws/install/my_robot_description2
+Invoked command in '/home/kareem/ros2_ws/build/my_robot_description2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/kareem/ros2_ws/src/my_robot_description2 -DCMAKE_INSTALL_PREFIX=/home/kareem/ros2_ws/install/my_robot_description2
+Invoking command in '/home/kareem/ros2_ws/build/my_robot_description2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/my_robot_description2 -- -j12 -l12
+Invoked command in '/home/kareem/ros2_ws/build/my_robot_description2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/my_robot_description2 -- -j12 -l12
+Invoking command in '/home/kareem/ros2_ws/build/my_robot_description2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kareem/ros2_ws/build/my_robot_description2
+Invoked command in '/home/kareem/ros2_ws/build/my_robot_description2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kareem/ros2_ws/build/my_robot_description2

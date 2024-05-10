@@ -1,0 +1,36 @@
+[0.016s] Invoking command in '/home/kareem/ros2_ws/build/nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/nav -- -j12 -l12
+[0.052s] Invoked command in '/home/kareem/ros2_ws/build/nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/kareem/ros2_ws/build/nav -- -j12 -l12
+[0.082s] Invoking command in '/home/kareem/ros2_ws/build/nav': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kareem/ros2_ws/build/nav
+[0.091s] -- Install configuration: ""
+[0.092s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/launch
+[0.093s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/launch/multirobot.launch.py
+[0.094s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/launch/localization.launch.py
+[0.094s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/launch/navigation.launch.py
+[0.094s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/launch/mapping.launch.py
+[0.094s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config
+[0.095s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/cartographer.lua
+[0.095s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/amcl_config.yaml
+[0.095s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/map1.pgm
+[0.095s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/behavior.xml
+[0.095s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/ekf.yaml
+[0.095s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/recovery.yaml
+[0.095s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/planner_server.yaml
+[0.095s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/bt_navigator.yaml
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/map1.yaml
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/config/controller.yaml
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/ament_index/resource_index/package_run_dependencies/nav
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/ament_index/resource_index/parent_prefix_path/nav
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/ament_prefix_path.sh
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/ament_prefix_path.dsv
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/path.sh
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/environment/path.dsv
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.bash
+[0.096s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.sh
+[0.097s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.zsh
+[0.097s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/local_setup.dsv
+[0.097s] -- Installing: /home/kareem/ros2_ws/install/nav/share/nav/package.dsv
+[0.097s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/ament_index/resource_index/packages/nav
+[0.097s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/cmake/navConfig.cmake
+[0.098s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/cmake/navConfig-version.cmake
+[0.098s] -- Up-to-date: /home/kareem/ros2_ws/install/nav/share/nav/package.xml
+[0.098s] Invoked command in '/home/kareem/ros2_ws/build/nav' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/kareem/ros2_ws/build/nav

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="paused" default="false"/> 
+    <arg name="use_sim_time" default="true" />
+    <arg name="gui" default="true"/>
+    <arg name="headless" default="false"/>
+    <arg name="debug" default="false"/>
+    
+  
+    <group ns="robot1">
+        <param name="robot_description" command="/path/to/xacro '/home/kareem/ros2_ws/src/my_robot_description/urdf/robot_description.urdf.xacro'"/>
+        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
+        <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -model robot1 -param robot_description -z 1"/>
+    </group>
+    
+    <group ns="robot2">
+        <param name="robot_description" command="/path/to/xacro '/home/kareem/ros2_ws/src/my_robot_description/urdf/robot_description.urdf.xacro'"/>
+        <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+        <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" /> 
+        <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" args="-urdf -model robot2 -param robot_description -z 0.30"/>
+    </group>
+</launch>
